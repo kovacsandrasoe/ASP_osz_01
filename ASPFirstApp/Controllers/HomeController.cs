@@ -25,6 +25,7 @@ namespace ASPFirstApp.Controllers
             List<int> numbers = new List<int>();
             for (int i = min; i <= max; i+= step)
             {
+
                 numbers.Add(i);
             }
             return View("Result", numbers);
